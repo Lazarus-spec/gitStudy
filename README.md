@@ -23,6 +23,13 @@ git log 查看详细版本号 <br>
 git reset --hard 版本号 <br>
 往前穿越同上，把指针指到目标版本即可
 
+### 分支
+查看分支 git branch -v <br>
+创建分支 git branch branchName <br>
+切换分支  git checkout branchName <br>
+合并分支 git merge branchName <br>
 
-
-### 
+### 创建远程仓库别名
+查看当前远程别名 git remote -v <br>
+创建别名 git remote add alias gitAddress <br>
+本地推送到远程仓库 git push alias master <br>
